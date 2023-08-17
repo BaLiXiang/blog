@@ -6,41 +6,41 @@ title: 主页
 # heroImage: /head.svg
 heroText: #设置博客名称
 heroFullScreen: true
-tagline: 我本将心向明月，奈何明月照沟渠 #之后试试文心一言接口
+# tagline: 我本将心向明月，奈何明月照沟渠 #之后试试文心一言接口
 # tagline: "https://v1.hitokoto.cn/?encode=text&c=a"
 
 bgImage: "https://file.mo7.cc/api/public/bz" # 一个图片接口，每次刷新提供不同的风景图片
 
-projects:
-  - icon: project
-    name: 项目名称
-    desc: 项目详细描述
-    link: javascript:;
+# projects:
+#   - icon: project
+#     name: 项目名称
+#     desc: 项目详细描述
+#     link: javascript:;
 
-  - icon: link
-    name: 链接名称
-    desc: 链接详细描述
-    link: javascript:;
+#   - icon: link
+#     name: 链接名称
+#     desc: 链接详细描述
+#     link: javascript:;
 
-  - icon: book
-    name: 书籍名称
-    desc: 书籍详细描述
-    link: javascript:;
+#   - icon: book
+#     name: 书籍名称
+#     desc: 书籍详细描述
+#     link: javascript:;
 
-  - icon: article
-    name: 文章名称
-    desc: 文章详细描述
-    link: javascript:;
+#   - icon: article
+#     name: 文章名称
+#     desc: 文章详细描述
+#     link: javascript:;
 
-  - icon: friend
-    name: 伙伴名称
-    desc: 伙伴详细介绍
-    link: javascript:;
+#   - icon: friend
+#     name: 伙伴名称
+#     desc: 伙伴详细介绍
+#     link: javascript:;
 
-  - icon: /logo.svg
-    name: 自定义项目
-    desc: 自定义详细介绍
-    link: javascript:;
+#   - icon: /logo.svg
+#     name: 自定义项目
+#     desc: 自定义详细介绍
+#     link: javascript:;
 
 footer: Powered by vuepress-theme-hope
 ---
