@@ -16,8 +16,8 @@ export default defineUserConfig({
     },
     "/zh/": {
       lang: "zh-CN",
-      title: "丈墨",
-      description: "属于我的一片小世界",
+      title: "桃李春风",
+      description: "属于我的一片小世界",//改
     },
   },
 

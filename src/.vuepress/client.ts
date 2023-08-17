@@ -9,7 +9,7 @@ export default defineClientConfig({
   enhance({ app, router, siteData }) {},
   setup() {
     setupRunningTimeFooter(
-      new Date("2023-07-23"),
+      new Date("2023-08-12"),
       {
         "/": "Running time: :day days :hour hours :minute minutes :second seconds",
         "/zh/": "小破站已运行 :day 天 :hour 小时 :minute 分钟 :second 秒",

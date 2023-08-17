@@ -7,18 +7,18 @@ const MR_HOPE_AVATAR =
 
 export default hopeTheme(
   {
-    hostname: "https://mister-hope.github.io", //部署完再改
+    hostname: "https://feng-pearl.vercel.app/zh/", //部署完再改
 
     author: {
-      name: "丈墨",
-      url: "https://zhang-mo-blog.vercel.app/zh/",
+      name: "桃李春风",
+      url: "https://feng-pearl.vercel.app/zh/",
     },
 
     iconAssets: "fontawesome-with-brands",
 
-    logo: "/power.svg",
+    logo: "/power.svg",//改：作为头像
 
-    repo: "5825wsh/ZhangMo-blog", //对应仓库
+    repo: "BaLiXiang/blog", //对应仓库
 
     docsDir: "src", // 对应目录
 
@@ -30,12 +30,12 @@ export default hopeTheme(
         // Dingding: "https://example.com",
         // Discord: "https://example.com",
         // Dribbble: "https://example.com",
-        Email: "mailto:wushaohui5825@qq.com",
+        Email: "mailto:206276391@qq.com",
         // Evernote: "https://example.com",
         // Facebook: "https://example.com",
         // Flipboard: "https://example.com",
         // Gitee: "https://example.com",
-        GitHub: "https://github.com/5825wsh",
+        GitHub: "https://github.com/BaLiXiang",
         // Gitlab: "https://example.com",
         // Gmail: "mailto:info@example.com",
         // Instagram: "https://example.com",
@@ -44,13 +44,13 @@ export default hopeTheme(
         // Linkedin: "https://example.com",
         // Pinterest: "https://example.com",
         // Pocket: "https://example.com",
-        QQ: "tencent://message/?uin=2723751856",
+        QQ: "tencent://message/?uin=206276391",
         // Qzone: "https://example.com",
         // Reddit: "https://example.com",
         // Rss: "https://example.com",
-        Steam: "https://steamcommunity.com/id/wushaohui5825/",
-        Twitter: "https://twitter.com/5w8s2h5",
-        Wechat: "", //这个还没成功
+        // Steam: "https://steamcommunity.com/id/wushaohui5825/",
+        Twitter: "https://twitter.com/LiFeng5742",
+        // Wechat: "", //这个还没成功
         // Weibo: "https://example.com",
         // Whatsapp: "https://example.com",
         // Youtube: "https://example.com",
@@ -97,7 +97,7 @@ export default hopeTheme(
         displayFooter: true,
 
         blog: {
-          description: "一个摸鱼达人",
+          description: "一个摸鱼达人",//改：个人简介
           intro: "/zh/intro.html",
         },
 
@@ -107,7 +107,8 @@ export default hopeTheme(
         },
       },
     },
-
+    
+    //文章加密
     encrypt: {
       config: {
         "/demo/encrypt.html": ["1234"],
@@ -127,7 +128,7 @@ export default hopeTheme(
       comment: {
         // You should generate and use your own comment service
         provider: "Waline",
-        serverURL: "https://zhangmo-waline.vercel.app/",
+        serverURL: "https://waline-git-main-balixiang.vercel.app/",
       },
 
       // all features are enabled for demo, only preserve features you need here

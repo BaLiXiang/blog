@@ -5,7 +5,7 @@ export const zhNavbar = navbar([
   // "/zh/demo/", //配置页面
   {
     text: "开发笔记",
-    icon: "pen-to-square",
+    icon: "earth-americas",
     prefix: "/zh/posts/",
     children: [
       {
